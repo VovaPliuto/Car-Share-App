@@ -6,9 +6,6 @@ const MainText = styled.h1`
   margin: 50px auto;
   text-align: center;
   max-width: 550px;
-
-  background-image: url('../../data/sharcar.jpg');
-  background-size: cover;
 `;
 
 const HeaderSpan = styled.span`
