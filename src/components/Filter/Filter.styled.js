@@ -60,7 +60,6 @@ const Button = styled.button`
   color: #ffffff;
 
   &:hover,
-  /* &:focus, */
   &:active {
     background-color: #0b44cd;
   }

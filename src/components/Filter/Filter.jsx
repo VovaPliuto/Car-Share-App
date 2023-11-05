@@ -1,7 +1,6 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 import { filterCarsChange } from 'redux/filter/filtersSlice';
-import { selectCarsFilter } from 'redux/selectors';
 
 import {
   Form,
