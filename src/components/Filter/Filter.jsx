@@ -14,13 +14,10 @@ import {
 import carBrands from '../../data/makes.json';
 
 const Filter = () => {
-  // const filterValue = useSelector(selectCarsFilter);
   const dispatch = useDispatch();
 
   const handleFilterSubmit = e => {
     e.preventDefault();
-
-    console.log(e.target.brand.value);
 
     dispatch(filterCarsChange(e.target.brand.value));
   };
